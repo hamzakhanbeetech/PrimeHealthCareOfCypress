@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const navbarContainer = document.querySelector('.footer-container');
   
     if (navbarContainer) {
-      fetch('footer/footer.html')
+      fetch('/footer/footer.html')
         .then(response => response.text())
         .then(data => {
           navbarContainer.innerHTML = data;

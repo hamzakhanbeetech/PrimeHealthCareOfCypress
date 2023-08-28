@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const navbarContainer = document.querySelector('.nav-container');
   
     if (navbarContainer) {
-      fetch('nav/nav.html')
+      fetch('/nav/nav.html')
         .then(response => response.text())
         .then(data => {
           navbarContainer.innerHTML = data;
