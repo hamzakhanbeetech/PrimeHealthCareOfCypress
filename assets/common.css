@@ -1,0 +1,56 @@
+:root {
+    --theme-color-1: rgb(62, 63, 69);
+    --theme-color-1-rgbv: 0, 0, 0;
+    --theme-color-1-dark: rgb(49, 50, 55);
+    --theme-color-1-dark-rgbv: 49, 50, 55;
+    --theme-color-1-light: rgb(100, 101, 106);
+    --theme-color-1-light-rgbv: 100, 101, 106;
+    --theme-color-2: rgb(255, 255, 255);
+    --theme-color-2-rgbv: 255, 255, 255;
+    --theme-color-2-dark: rgb(204, 204, 204);
+    --theme-color-2-dark-rgbv: 204, 204, 204;
+    --theme-color-2-light: rgb(255, 255, 255);
+    --theme-color-2-light-rgbv: 255, 255, 255;
+    --theme-color-3: rgb(222, 91, 82);
+    --theme-color-3-rgbv: 222, 91, 82;
+    --theme-color-3-dark: rgb(177, 148, 65);
+    --theme-color-3-dark-rgbv: 177, 148, 65;
+    --theme-color-3-light: rgb(228, 199, 116);
+    --theme-color-3-light-rgbv: 228, 199, 116;
+    --theme-color-4: rgb(222, 186, 82);
+    --theme-color-4-rgbv: 222, 186, 82;
+    --theme-color-4-dark: rgb(177, 148, 65);
+    --theme-color-4-dark-rgbv: 177, 148, 65;
+    --theme-color-4-light: rgb(228, 199, 116);
+    --theme-color-4-light-rgbv: 228, 199, 116;
+    --theme-color-5: rgb(243, 243, 240);
+    --theme-color-5-rgbv: 243, 243, 240;
+    --theme-color-5-dark: rgb(194, 194, 192);
+    --theme-color-5-dark-rgbv: 194, 194, 192;
+    --theme-color-5-light: rgb(245, 245, 243);
+    --theme-color-5-light-rgbv: 245, 245, 243;
+    --theme-color-6: rgb(14, 14, 14);
+    --theme-color-6-rgbv: 14, 14, 14;
+    --theme-color-6-dark: rgb(11, 11, 11);
+    --theme-color-6-dark-rgbv: 11, 11, 11;
+    --theme-color-6-light: rgb(62, 62, 62);
+    --theme-color-6-light-rgbv: 62, 62, 62;
+}
+
+:root {
+    --button-color-preset-1-color: rgba(var(--theme-color-2-rgbv), 1);
+    --button-color-preset-1-background-hover-color: rgba(var(--theme-color-3-rgbv), 1);
+    --button-color-preset-1-background-color: rgba(var(--theme-color-1-light-rgbv), 1);
+    --button-color-preset-1-border-color: var(--theme-color-1);
+    --button-color-preset-1-hover-color: var(--theme-color-2);
+    --button-color-preset-2-color: var(--theme-color-2);
+    --button-color-preset-2-background-hover-color: var(--theme-color-2);
+    --button-color-preset-2-background-color: rgba(var(--theme-color-1-dark-rgbv), 1);
+    --button-color-preset-2-border-color: var(--theme-color-2);
+    --button-color-preset-2-hover-color: var(--theme-color-1);
+    --button-color-preset-3-color: var(--theme-color-3);
+    --button-color-preset-3-background-hover-color: var(--theme-color-4);
+    --button-color-preset-3-background-color: var(--theme-color-4);
+    --button-color-preset-3-border-color: var(--theme-color-3);
+    --button-color-preset-3-hover-color: var(--theme-color-3);
+}

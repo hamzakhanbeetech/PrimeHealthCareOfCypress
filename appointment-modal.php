@@ -156,11 +156,11 @@
                 <div>
                     <p>Sex </p>
                     <label class="container">Male
-                        <input type="radio" checked="checked" name="sex">
+                        <input type="radio" checked="checked" name="sex" value="male">
                         <span class="checkmark"></span>
                     </label>
                     <label class="container">Female
-                        <input type="radio" name="sex">
+                        <input type="radio" name="sex" value="female">
                         <span class="checkmark"></span>
                     </label>
                 </div><br>
