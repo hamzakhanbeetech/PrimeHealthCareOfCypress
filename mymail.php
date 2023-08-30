@@ -7,7 +7,7 @@
     $phone= $_POST['phone'];
     $date_of_birth= $_POST['date_of_birth'];
     $sex= $_POST['sex'];
-    $to = "hkhan1241@gmail.com";
+    $to = "admin@primehealthcareofcypress.com";
     $subject = "Cypress Foot And Ankle";
 
     $txt ="Name: ". $name . "\r\n
